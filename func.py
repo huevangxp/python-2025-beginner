@@ -30,6 +30,7 @@ data = [
 # function
 def show_data():
     for user in data:
-        if user["age"] > 25:
-            print(user["age"])
+        # check user age large than 25 and small than 30
+        if user["age"] > 25 and user["age"] < 30:
+            print(user["username"], user["age"])
 show_data()
