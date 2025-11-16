@@ -27,13 +27,8 @@ data = [
 ]
 
 
-# function
-def show_data():
-    for user in data:
-        if 25 < user["age"] < 30:
-            print(user["username"], user["age"])
-
-show_data()
+ 
 
 newData = data.sort(key=lambda x: x["age"])
+print(newData)
 
