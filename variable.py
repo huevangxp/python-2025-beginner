@@ -16,3 +16,7 @@ print(height)
 # boolean
 is_active = True
 print(is_active)
+
+# list
+friends = ["huevang", "xiongpour", "huy"]
+print(friends)
