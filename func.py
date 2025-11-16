@@ -30,5 +30,6 @@ data = [
 # function
 def show_data():
     for user in data:
-        print(user["phone"])
+        if user["age"] > 25:
+            print(user)
 show_data()
