@@ -25,3 +25,10 @@ data = [
     {"username": "soukanya24", "age": 29, "phone": "202-555-0129", "email": "soukanya24@example.com", "salary": 61000, "address": "14 Ban Thanaleng, Vientiane"},
     {"username": "somlith25", "age": 34, "phone": "202-555-0189", "email": "somlith25@example.com", "salary": 68000, "address": "201 Xiengkhouang Center, Xiengkhouang"},
 ]
+
+
+# function
+def show_data():
+    for user in data:
+        print(user)
+show_data()
