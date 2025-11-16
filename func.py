@@ -35,8 +35,5 @@ def show_data():
 
 show_data()
 
-# check which user have age large only one
-for user in data:
-    if user["age"] == 26:
-        print(user["username"], user["age"])
+newData = data.sort(key=lambda x: x["age"])
 
