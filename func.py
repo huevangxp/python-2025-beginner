@@ -37,6 +37,6 @@ show_data()
 
 # check which user have age large only one
 for user in data:
-    if user["age"] == 25:
+    if user["age"] == 26:
         print(user["username"], user["age"])
 
