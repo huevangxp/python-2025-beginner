@@ -12,3 +12,7 @@ print(age)
 # float
 height = 5.9
 print(height)
+
+# boolean
+is_active = True
+print(is_active)
