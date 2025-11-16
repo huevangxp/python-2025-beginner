@@ -31,5 +31,5 @@ data = [
 def show_data():
     for user in data:
         if user["age"] > 25:
-            print(user)
+            print(user["age"])
 show_data()
