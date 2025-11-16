@@ -29,6 +29,6 @@ data = [
 
  
 
-newData = data.sort(key=lambda x: x["age"])
+newData = min(data, key=lambda a: a["age"])
 print(newData)
 
