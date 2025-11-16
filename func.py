@@ -30,5 +30,5 @@ data = [
 # function
 def show_data():
     for user in data:
-        print(user)
+        print(user.phone)
 show_data()
