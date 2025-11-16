@@ -1,4 +1,4 @@
 # string
-const username = "huevang"
+username = "huevang"
 
 print(username)
