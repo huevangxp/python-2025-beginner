@@ -36,7 +36,3 @@ print(oldest_user)
 age18 = max(data, key=lambda a: a["age"])
 
 print('HelloHollow  World')
-
-print('HelloHollow  World')
-print('HelloHollow  World')
-print('HelloHollow  World')
