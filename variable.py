@@ -19,4 +19,3 @@ print(is_active)
 
 # list
 friends = ["huevang", "xiongpour", "huy"]
-print(friends)
