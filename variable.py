@@ -8,6 +8,3 @@ print(first_name + " " + last_name)
 # integer
 age = 21
 print(age)
-
-
-
