@@ -9,7 +9,6 @@ print(first_name + " " + last_name)
 age = 21
 print(age)
 
-height = 5.9
 print(height)
 
 
